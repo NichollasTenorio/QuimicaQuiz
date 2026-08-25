@@ -1,3 +1,5 @@
+SEMPRE QUE FOR DESENHAR FAZER EM 500X500 NO PAINT
+
 Só alterar o enunciado as respostas e a imagem da questão
 
 Para o botão da Resposta só adicionar um name="correct"
