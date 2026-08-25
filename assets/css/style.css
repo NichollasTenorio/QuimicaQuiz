@@ -212,3 +212,21 @@ body {
     border-width: 5px;
   }
 }
+
+.footer-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;          /* herda a mesma fonte/tamanho do .quiz-footer */
+  color: inherit;         /* herda a mesma cor */
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--footer-color);
+}
+
+.footer-button:hover,
+.footer-button:focus-visible {
+  outline: none;          /* remove o destaque de foco/hover pra não entregar a pegadinha */
+}
