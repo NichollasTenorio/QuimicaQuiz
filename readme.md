@@ -1,8 +1,4 @@
-Para montagem de cada questão só copiar o question.php
-
-Criar um arquivo com "question_" e o número da questão que você ta fazendo
-
-Precisa alterar o enunciado as respostas e a imagem da questão
+Só alterar o enunciado as respostas e a imagem da questão
 
 Para o botão da Resposta só adicionar um name="correct"
 Exemplo:
