@@ -1,0 +1,106 @@
+/* =========================================================
+   Gênio Quiz - home.css
+   Estilos específicos da página inicial (home.php).
+   Reaproveita as variáveis e fontes definidas em style.css.
+   ========================================================= */
+
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.home-content {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ícone decorativo (tubo de ensaio) acima do título */
+.home-icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 12px;
+}
+
+/* Título principal */
+.home-title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 2.6rem;
+  color: var(--text-dark);
+  margin: 0 0 8px;
+  line-height: 1.1;
+}
+
+.home-title .highlight {
+  color: var(--board-bg);
+}
+
+/* Subtítulo */
+.home-subtitle {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  color: #6b6b6b;
+  margin: 0 0 40px;
+}
+
+/* Botão "Jogar" - mesma linguagem visual das placas de resposta,
+   porém maior, para funcionar como call-to-action principal. */
+.play-button {
+  display: inline-block;
+  min-width: 220px;
+  padding: 16px 40px;
+  background-color: var(--board-bg);
+  border: 6px solid var(--board-border);
+  border-radius: 8px;
+  color: var(--text-dark);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.play-button:hover,
+.play-button:focus-visible {
+  filter: brightness(1.08);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.25);
+  color: var(--text-dark);
+  outline: none;
+}
+
+.play-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  filter: brightness(0.97);
+}
+
+/* Responsividade */
+@media (max-width: 575.98px) {
+  .home-title {
+    font-size: 2rem;
+  }
+
+  .home-icon {
+    width: 72px;
+    height: 72px;
+  }
+
+  .play-button {
+    width: 100%;
+    max-width: 280px;
+    font-size: 1.2rem;
+    padding: 14px 24px;
+  }
+}

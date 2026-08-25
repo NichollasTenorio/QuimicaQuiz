@@ -1,0 +1,103 @@
+<?php
+    session_start();
+    $pag = 14;
+
+    function nextPage()
+    {
+        if(!isset($_SESSION['actual_question'])){
+            header('Location: ../home.php');
+            exit;
+        }
+
+        $actual_question = $_SESSION['actual_question'];
+
+        if(!isset($_POST['question_id']) || (int)$_POST['question_id'] != $actual_question){
+            if(!isset($_POST['correct'])){
+                session_destroy();
+                header('Location: ../failpage.php');
+                exit;
+            }
+
+            header("Location: question_$actual_question.php");
+            exit;
+        }
+
+        if($actual_question > 20){
+            header('Location: ../finish.php');
+            exit;
+        }
+
+        if(isset($_POST['correct'])){
+            $_SESSION['actual_question']++;
+            $next_question = $_SESSION['actual_question'];
+            header("Location: question_$next_question.php");
+            exit;
+        } else {
+            session_destroy();
+            header("Location: ../failpage.php");
+            exit;
+        }
+    }
+
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        nextPage();
+    }
+
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quimica quiz</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<main class="quiz-page">
+    <div class="quiz-container">
+
+        <div class="question-number">14</div>
+
+        <div class="quiz-image">
+            <img src="../assets/images/" alt="Imagem do quiz">
+        </div>
+
+        <div class="question">
+            Questão
+        </div>
+        <form action="" method="post">
+            <div class="answers">
+                <div class="row">
+                    <input type="hidden" name="question_id" value="<?= $pag ?>">
+                    <div class="col-6">
+                        <button type="submit" class="answer-button"></button>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="answer-button"></button>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="answer-button"></button>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="answer-button"></button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <footer class="quiz-footer">
+        Todos os direitos reservados &copy; 2026
+    </footer>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

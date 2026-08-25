@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <!-- Placeholder mascot: simple original illustration of a quiz character.
+       Replace this file (or point <img src> to a PNG/JPG) with your own artwork. -->
+
+  <!-- cap -->
+  <ellipse cx="100" cy="55" rx="42" ry="20" fill="#2f6fb3"/>
+  <path d="M60 55 Q100 15 140 55 Q140 65 100 65 Q60 65 60 55 Z" fill="#2f6fb3"/>
+  <rect x="128" y="42" width="26" height="14" rx="4" fill="#2f6fb3"/>
+
+  <!-- head -->
+  <circle cx="100" cy="80" r="30" fill="#c1673a"/>
+
+  <!-- eyes -->
+  <circle cx="90" cy="78" r="4" fill="#2b1a12"/>
+  <circle cx="112" cy="78" r="4" fill="#2b1a12"/>
+
+  <!-- smile -->
+  <path d="M88 92 Q100 102 114 90" stroke="#2b1a12" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- torso / jersey -->
+  <path d="M65 115 L100 105 L135 115 L145 180 L55 180 Z" fill="#ffffff" stroke="#2f6fb3" stroke-width="6"/>
+  <line x1="85" y1="108" x2="85" y2="178" stroke="#2f6fb3" stroke-width="6"/>
+  <line x1="115" y1="108" x2="115" y2="178" stroke="#2f6fb3" stroke-width="6"/>
+
+  <!-- arms -->
+  <path d="M65 118 L35 150" stroke="#c1673a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M135 118 L160 145" stroke="#c1673a" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- shorts -->
+  <rect x="60" y="178" width="80" height="30" fill="#111111" rx="4"/>
+
+  <!-- legs -->
+  <rect x="68" y="205" width="16" height="35" fill="#c1673a"/>
+  <rect x="116" y="205" width="16" height="35" fill="#c1673a"/>
+
+  <!-- shoes -->
+  <rect x="60" y="238" width="32" height="12" rx="4" fill="#111111"/>
+  <rect x="108" y="238" width="32" height="12" rx="4" fill="#111111"/>
+
+  <!-- ball -->
+  <circle cx="150" cy="225" r="16" fill="#ffffff" stroke="#111111" stroke-width="3"/>
+  <polygon points="150,215 156,220 154,227 146,227 144,220" fill="#111111"/>
+</svg>
