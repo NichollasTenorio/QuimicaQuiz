@@ -2,13 +2,18 @@
     session_start();
     $pag = 5;
 
+    if(!isset($_SESSION['actual_question'])){
+        header('Location: ../home.php');
+        exit;
+    }
+
+    if($_SESSION['actual_question'] != $pag){
+        header("Location: question_{$_SESSION['actual_question']}.php");
+        exit;
+    }
+    
     function nextPage()
     {
-        if(!isset($_SESSION['actual_question'])){
-            header('Location: ../home.php');
-            exit;
-        }
-
         $actual_question = $_SESSION['actual_question'];
 
         if(!isset($_POST['question_id']) || (int)$_POST['question_id'] != $actual_question){
