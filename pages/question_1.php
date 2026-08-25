@@ -11,43 +11,6 @@
         header("Location: question_{$_SESSION['actual_question']}.php");
         exit;
     }
-    
-    function nextPage()
-    {
-        $actual_question = $_SESSION['actual_question'];
-
-        if(!isset($_POST['question_id']) || (int)$_POST['question_id'] != $actual_question){
-            if(!isset($_POST['correct'])){
-                session_destroy();
-                header('Location: ../failpage.php');
-                exit;
-            }
-
-            header("Location: question_$actual_question.php");
-            exit;
-        }
-
-        if($actual_question > 20){
-            header('Location: ../finish.php');
-            exit;
-        }
-
-        if(isset($_POST['correct'])){
-            $_SESSION['actual_question']++;
-            $next_question = $_SESSION['actual_question'];
-            header("Location: question_$next_question.php");
-            exit;
-        } else {
-            session_destroy();
-            header("Location: ../failpage.php");
-            exit;
-        }
-    }
-
-    if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        nextPage();
-    }
-
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -76,7 +39,7 @@
         <div class="question">
             Questão
         </div>
-        <form action="" method="post">
+        <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
