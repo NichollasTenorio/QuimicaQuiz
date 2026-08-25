@@ -33,36 +33,37 @@
         <div class="question-number">3</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_3.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Qual dessas substâncias é ácida?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">HCl</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">H₂SO₄</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">HNO₃</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">H₃PO₄</button>
                     </div>
                 </div>
             </div>
-        </form>
-    </div>
+        </div>
+        
+        <footer class="quiz-footer">
+            <button type="submit" name="correct" class="footer-button">Todos</button> os direitos reservados &copy; 2026            
+        </footer>
+    </form>
 
-    <footer class="quiz-footer">
-        Todos os direitos reservados &copy; 2026
-    </footer>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
