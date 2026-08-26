@@ -33,27 +33,27 @@
         <div class="question-number">5</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_5.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            João encontrou uma substância com pH 14 no laboratório. Ele colocou a mão dentro para descobrir se era água. O que ele encontrou?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Água chei de ódio</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Ácido batizado</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Uma base forte</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Cadê minha mão?</button>
                     </div>
                 </div>
             </div>
