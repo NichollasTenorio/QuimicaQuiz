@@ -50,7 +50,7 @@
                         <button type="submit" class="answer-button">Gás Butano</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button">Gás Metano</button>
+                        <button type="submit" class="answer-button" name="correct">Gás Metano</button>
                     </div>
                     <div class="col-6">
                         <button type="submit" class="answer-button">Gás Mutano</button>
