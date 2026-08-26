@@ -20,3 +20,21 @@ GABARITO:
 3 - Todos ali embaixo
 4 - Número da questão
 5 - Reposta 3
+6 -
+7 -
+8 -
+9 -
+10 -
+11 - Botão Amarelo
+12 - O  ©
+13 - Todos la embaixo
+14 - Resposta 4
+15 - Resposta 3
+16 -
+17 -
+18 -
+19 -
+20 -
+
+
+
