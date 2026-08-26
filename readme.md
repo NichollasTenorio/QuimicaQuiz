@@ -25,7 +25,7 @@ GABARITO:
 8 -
 9 -
 10 -
-11 - Botão Amarelo
+11 - cabelo amarelo
 12 - O  ©
 13 - Todos la embaixo
 14 - Resposta 4
