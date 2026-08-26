@@ -1,8 +1,16 @@
 <?php
-session_start();
+  session_start();
+    $pag = 11;
 
-$pag = 11;
-$_SESSION['actual_question'] = 11;
+    if(!isset($_SESSION['actual_question'])){
+        header('Location: ../home.php');
+        exit;
+    }
+
+    if($_SESSION['actual_question'] != $pag){
+        header("Location: question_{$_SESSION['actual_question']}.php");
+        exit;
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
