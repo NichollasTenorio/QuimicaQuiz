@@ -12,3 +12,11 @@ Exemplo:
 16-20: YZAKI
 
 ordem aleatória ae rpzd, fiz sem pensar
+
+GABARITO:
+
+1 - Resposta 1
+2 - Resposta 4
+3 - Todos ali embaixo
+4 - Número da questão
+5 - Reposta 3
