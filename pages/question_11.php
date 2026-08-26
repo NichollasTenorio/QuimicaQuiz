@@ -31,13 +31,12 @@
     <div class="quiz-container">
 
         <div class="question-number">11</div>
-         <form action="../core/action.php" method="post">
-        <div class="quiz-image">
-            <footer class="quiz-footer">          
-            <button type="submit" class="footer-button" name="correct"><img src="../assets/images/questao_11.png"></button>
-            </footer>
-        </div>
-
+            <form action="../core/action.php" method="post">
+                <div class="quiz-image">
+                    <footer class="quiz-footer">          
+                        <button type="submit" class="footer-button" name="correct"><img src="../assets/images/questao_11.png"></button>
+                    </footer>
+                </div>
         <div class="question">
             Você estava em casa cheio de fome, você viu uma solução de verde bromocresol e vinagre, quando você as misturou para fazer salada, que cor ficou?
         </div>
