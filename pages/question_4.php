@@ -29,31 +29,32 @@
 
 <main class="quiz-page">
     <div class="quiz-container">
-
-        <div class="question-number">4</div>
-
-        <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
-        </div>
-
-        <div class="question">
-            Questão
-        </div>
         <form action="../core/action.php" method="post">
+            <div class="question-number">
+                <button type="submit" name="correct" class="top-button">4</button>
+            </div>
+
+            <div class="quiz-image">
+                <img src="../assets/images/questao_4.png" alt="Imagem do quiz">
+            </div>
+
+            <div class="question">
+                CH₄ foi parado pela polícia por excesso de passageiros. Quantos átomos de Hidrogênio estavam escondidos no porta-malas?
+            </div>
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">2</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">8</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">6</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">10</button>
                     </div>
                 </div>
             </div>

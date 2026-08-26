@@ -230,3 +230,20 @@ body {
 .footer-button:focus-visible {
   outline: none;          /* remove o destaque de foco/hover pra não entregar a pegadinha */
 }
+
+.top-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: var(--text-dark);
+  font: inherit;          /* herda a mesma fonte/tamanho do .quiz-footer */        /* herda a mesma cor */
+  cursor: pointer;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+.top-button:hover,
+.top-button:focus-visible {
+  outline: none;          /* remove o destaque de foco/hover pra não entregar a pegadinha */
+}

@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 <main class="home-page">
     <div class="home-content">
         <h1 class="home-title">Química <span class="highlight">Quiz</span></h1>
-        <p class="home-subtitle">Teste seus conhecimentos de química</p>
+        <p class="home-subtitle">Teste seus conhecimentos de química!🧪</p>
         
         <form action="" method="post">
             <button type="submit"class="play-button">Jogar</button>
