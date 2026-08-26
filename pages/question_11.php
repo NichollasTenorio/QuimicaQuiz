@@ -1,16 +1,9 @@
 <?php
     session_start();
-    $pag = 11;
 
-    if(!isset($_SESSION['actual_question'])){
-        header('Location: ../home.php');
-        exit;
-    }
+$_SESSION['actual_question'] = 11;
 
-    if($_SESSION['actual_question'] != $pag){
-        header("Location: question_{$_SESSION['actual_question']}.php");
-        exit;
-    }
+$pag = 11;
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -33,27 +26,27 @@
         <div class="question-number">11</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_11.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Você estava em casa cheio de fome, você viu uma solução de verde bromocresol e vinagre, quando você as misturou para fazer salada, que cor ficou?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-green"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-blue"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-yellow" name="correct"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-samuel"></button>
                     </div>
                 </div>
             </div>
