@@ -15,16 +15,20 @@
             exit;
         }
 
-        if($actual_question > 20){
-            header('Location: ../finish.php');
-            exit;
-        }
+
 
         if(isset($_POST['correct'])){
             $_SESSION['actual_question']++;
             $next_question = $_SESSION['actual_question'];
+            
+            if($actual_question == 20){
+                header('Location: ../finish.php');
+                exit;
+            }
+
             header("Location: ../pages/question_$next_question.php");
             exit;
+
         } else {
             session_destroy();
             header("Location: ../failpage.php");
