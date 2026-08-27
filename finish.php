@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fail - Preview</title>
+    <title>finish</title>
 
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,7 +21,7 @@
 <main class="home-page">
     <div class="home-content">
         <h1 class="home-title">Química <span class="highlight">Quiz</span></h1>
-        <p class="home-subtitle">Você ganhou, completou todo o nosso quiz!</p>
+        <p class="home-subtitle">Você ganhou, completou todo o nosso quiz!🎊</p>
         
         <form action="" method="post">
             <button type="submit"class="play-button">Tentar de Novo</button>
