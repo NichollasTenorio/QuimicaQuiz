@@ -30,11 +30,11 @@ GABARITO:
 13 - Todos la embaixo
 14 - Resposta 4
 15 - Resposta 3
-16 -
-17 -
-18 -
-19 -
-20 -
+16 - Resposta 2
+17 - Resposta 1
+18 - Resposta 4
+19 - Todos ali embaixo
+20 - Resposta 3
 
 
 
