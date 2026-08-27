@@ -29,9 +29,9 @@
 
 <main class="quiz-page">
     <div class="quiz-container">
-       <form action="../core/action.php" method="post">
+     <form action="../core/action.php" method="post">
             <div class="question-number">
-                <button type="submit" class="top-button">13</button>
+                <button type="submit" class="top-button">Sal</button>
             </div>
         <div class="quiz-image">
             <img src="../assets/images/questao_13.png" alt="Imagem do quiz">
