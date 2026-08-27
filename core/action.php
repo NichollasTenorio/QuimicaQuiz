@@ -19,7 +19,7 @@
             $_SESSION['actual_question']++;
             $next_question = $_SESSION['actual_question'];
 
-            if($actual_question > 20){
+            if($next_question > 20){
                 header('Location: ../finish.php');
                 exit;
             }
