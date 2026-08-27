@@ -20,3 +20,21 @@ GABARITO:
 3 - Todos ali embaixo
 4 - Número da questão
 5 - Reposta 3
+6 -
+7 -
+8 -
+9 -
+10 -
+11 - cabelo amarelo
+12 - O  ©
+13 - Todos la embaixo
+14 - Resposta 4
+15 - Resposta 3
+16 - Resposta 2
+17 - Resposta 1
+18 - Resposta 4
+19 - Todos ali embaixo
+20 - Resposta 3
+
+
+

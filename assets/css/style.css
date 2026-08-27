@@ -247,3 +247,19 @@ body {
 .top-button:focus-visible {
   outline: none;          /* remove o destaque de foco/hover pra não entregar a pegadinha */
 }
+
+.answer-green {
+    background-color: #28a745;
+}
+
+.answer-blue {
+    background-color: #007bff;
+}
+
+.answer-brown {
+    background-color: #ff5f1f;
+}
+
+.answer-samuel {
+    background-color: #dc3545;
+}

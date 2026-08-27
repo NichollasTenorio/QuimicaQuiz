@@ -1,5 +1,5 @@
 <?php
-    session_start();
+  session_start();
     $pag = 11;
 
     if(!isset($_SESSION['actual_question'])){
@@ -31,29 +31,29 @@
     <div class="quiz-container">
 
         <div class="question-number">11</div>
-
-        <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
-        </div>
-
+            <form action="../core/action.php" method="post">
+                <div class="quiz-image">
+                    <footer class="quiz-footer">          
+                        <button type="submit" class="footer-button" name="correct"><img src="../assets/images/questao_11.png"></button>
+                    </footer>
+                </div>
         <div class="question">
-            Questão
+            Você estava em casa cheio de fome, você viu uma solução de verde bromocresol e vinagre, quando você as misturou para fazer salada, que cor ficou?
         </div>
-        <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-green"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-blue"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-brown"></button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button answer-samuel"></button>
                     </div>
                 </div>
             </div>

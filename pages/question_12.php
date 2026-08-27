@@ -33,36 +33,36 @@
         <div class="question-number">12</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_12.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            No perfume um pouco velho da sua vó, onde esta o C(carbono) que falta?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Dentro do perfume</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">No ar provavelmente</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Cachorro comeu</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Samuel roubou</button>
                     </div>
                 </div>
             </div>
-        </form>
     </div>
 
     <footer class="quiz-footer">
-        Todos os direitos reservados &copy; 2026
+        Todos os direitos reservados <button type="submit" name="correct" class="footer-button">&copy;</button> 2026
     </footer>
+        </form>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

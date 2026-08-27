@@ -33,27 +33,27 @@
         <div class="question-number">14</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_14.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Marquinhos quer muito lavar o banheiro da rodoviária. Por que ele não deveria misturar vinagre com cloro.
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Gera Gás Cloro (C₄H₈Cl₂S)</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Não acontece nada</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Porque o SABOR vícia</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Faz ter endema pulmonar</button>
                     </div>
                 </div>
             </div>

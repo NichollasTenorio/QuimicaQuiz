@@ -33,27 +33,27 @@
         <div class="question-number">20</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_20.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            A laranja e o limão estavam discutindo quem era mais azedo. O que causa essa acidez?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Sal</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button"> Proteínas</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Ácidos orgânicos</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Ferro</button>
                     </div>
                 </div>
             </div>

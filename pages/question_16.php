@@ -33,27 +33,27 @@
         <div class="question-number">16</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_16.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Um próton (H+) estava caminhando sozinho e carente pela solução aquosa quando avistou uma linda hidroxila (OH). Ele correu, segurou a mão dela e os dois viveram felizes para sempre. Essa linda história de amor resultou em:
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Um divórcio ácido</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Uma molécula de água pura e neutra</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Um sal altamente salgado</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Uma explosão nuclear no laboratório</button>
                     </div>
                 </div>
             </div>
