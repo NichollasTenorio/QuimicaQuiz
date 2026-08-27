@@ -53,7 +53,7 @@
                         <button type="submit" class="answer-button">Açúcar e oxigênio</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct">Sal de água</button>
+                        <button type="submit" class="answer-button" name="correct">Sal e água</button>
                     </div>
                 </div>
             </div>
