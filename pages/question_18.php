@@ -33,27 +33,27 @@
         <div class="question-number">18</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_18.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            O ácido e a base se resolveram e fizeram um acordo. O que normalmente aparece como resultado dessa reconciliação química?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Sal e óleo</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Álcool e gás carbônico</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Açúcar e oxigênio</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Sal de água</button>
                     </div>
                 </div>
             </div>
