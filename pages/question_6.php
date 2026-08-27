@@ -44,7 +44,7 @@
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct"></button>
                     </div>
                     <div class="col-6">
                         <button type="submit" class="answer-button"></button>
