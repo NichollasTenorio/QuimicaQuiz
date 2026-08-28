@@ -33,27 +33,27 @@
         <div class="question-number">7</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_7.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Quais são as três principais subclasses dos hidrocarbonetos de cadeia aberta?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct"></button>
+                        <button type="submit" class="answer-button" >Fulano, Ciclano e Beltrano</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">Alcano, Alcino e Alceno</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Arroz, feijão e marmita</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">Ácidos, Bases e Sais</button>
                     </div>
                 </div>
             </div>

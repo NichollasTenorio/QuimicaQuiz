@@ -33,36 +33,37 @@
         <div class="question-number">10</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_10.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Que elemento é fundamental no estudo dos hidrocarbonetos, na formação de gases conhecidos e está presente na estrutura molecular de diamantes?
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct"></button>
+                        <button type="submit" class="answer-button" >metano</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">hélio</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">hidrogênio</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">carbono</button>
                     </div>
                 </div>
             </div>
-        </form>
-    </div>
+        
+        </div>
 
-    <footer class="quiz-footer">
-        Todos os direitos reservados &copy; 2026
-    </footer>
+            <footer class="quiz-footer">
+                Todos os direitos reservados <button type="submit" class="footer-button">&copy;</button> 2026
+            </footer>
+        </form>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

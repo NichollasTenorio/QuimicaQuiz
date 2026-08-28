@@ -29,31 +29,33 @@
 
 <main class="quiz-page">
     <div class="quiz-container">
-
-        <div class="question-number">9</div>
+        <form action="../core/action.php" method="post">
+         <div class="question-number">
+                <button type="submit" name="correct" class="top-button">9</button>
+            </div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_9.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Qual o número atômico do Flúor?
         </div>
-        <form action="../core/action.php" method="post">
+        
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct"></button>
+                        <button type="submit" class="answer-button">3</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">931</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">8</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">6</button>
                     </div>
                 </div>
             </div>

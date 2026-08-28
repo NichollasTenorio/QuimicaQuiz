@@ -33,27 +33,27 @@
         <div class="question-number">6</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_6.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Seguindo a nomenclatura oficial dos hidrocarbonetos, qual o nome desta cadeia? 
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct"></button>
+                        <button type="submit" class="answer-button">octopusdieno</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">jorge</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button" name="correct">octa-1,3-dien-6-ino</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">octadienino</button>
                     </div>
                 </div>
             </div>

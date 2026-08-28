@@ -33,36 +33,37 @@
         <div class="question-number">8</div>
 
         <div class="quiz-image">
-            <img src="../assets/images/" alt="Imagem do quiz">
+            <img src="../assets/images/questao_8.png" alt="Imagem do quiz">
         </div>
 
         <div class="question">
-            Questão
+            Quais desses são polímeros? 
         </div>
         <form action="../core/action.php" method="post">
             <div class="answers">
                 <div class="row">
                     <input type="hidden" name="question_id" value="<?= $pag ?>">
                     <div class="col-6">
-                        <button type="submit" class="answer-button" name="correct"></button>
+                        <button type="submit" class="answer-button">o DNA</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">o amido de milho</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">a sacola do shibata</button>
                     </div>
                     <div class="col-6">
-                        <button type="submit" class="answer-button"></button>
+                        <button type="submit" class="answer-button">nenhum</button>
                     </div>
                 </div>
             </div>
-        </form>
+        
     </div>
 
-    <footer class="quiz-footer">
-        Todos os direitos reservados &copy; 2026
-    </footer>
+     <footer class="quiz-footer">
+            <button type="submit" name="correct" class="footer-button">Todos</button> os direitos reservados &copy; 2026            
+        </footer>
+    </form>
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
